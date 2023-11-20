@@ -1,0 +1,283 @@
+2023-10-22 20:02:15.910 [main] INFO  com.proxy.recon.ReconApplication - Starting ReconApplication using Java 19.0.2 with PID 5609 (/Users/santhosh-18782/Downloads/rough/recon/build/classes/java/main started by santhosh-18782 in /Users/santhosh-18782/Downloads/rough/recon)
+2023-10-22 20:02:15.913 [main] INFO  com.proxy.recon.ReconApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-22 20:02:17.006 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2023-10-22 20:02:17.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:02:17.014 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-22 20:02:17.014 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-22 20:02:17.092 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-22 20:02:17.093 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+2023-10-22 20:02:17.234 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.342 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.426 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.520 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.614 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.699 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.783 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.867 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:17.952 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:18.036 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:18.126 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:02:18.302 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43984213, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ff7a73, org.springframework.security.web.context.SecurityContextHolderFilter@2f0bfe17, org.springframework.security.web.header.HeaderWriterFilter@f324455, org.springframework.security.web.authentication.logout.LogoutFilter@d5556bf, com.proxy.recon.filter.AuthFilter@38830ea, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b31a708, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@54067fdc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3b705be7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5115f590, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42fb8c87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15eb0ae9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a790e40, org.springframework.security.web.access.ExceptionTranslationFilter@767f6ee7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f0ed952]
+2023-10-22 20:02:18.512 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:02:18.520 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-10-22 20:02:18.523 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:02:18.523 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-10-22 20:02:18.529 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:02:18.529 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:02:18.536 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-22 20:02:18.547 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2023-10-22 20:02:24.824 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:24.826 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:24.882 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:24.884 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:24.884 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:24.884 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:24.885 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:24.885 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:24.886 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:24.886 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:24.912 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:24.912 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:24.918 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:24.918 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:26.762 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:26.762 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:26.820 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:26.820 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:26.820 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:26.820 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:26.821 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:26.821 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:26.821 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:26.821 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:26.859 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:26.860 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:26.868 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:26.868 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:27.005 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:27.005 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:27.100 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.100 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:27.100 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.101 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:27.100 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.101 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:27.101 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.101 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:27.134 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.134 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:27.140 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.140 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:27.234 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:27.234 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:27.261 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.261 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:27.264 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.264 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:27.265 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.265 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:27.265 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.265 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:27.297 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.297 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:27.304 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.304 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:27.453 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:27.454 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:27.484 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.485 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:27.488 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.488 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.488 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:27.488 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:27.489 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.489 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:27.509 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.509 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:27.516 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.516 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:27.611 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:27.611 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:27.635 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.635 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:27.635 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.635 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.635 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:27.635 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.635 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:27.636 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:27.667 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.668 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:27.674 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.674 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:27.777 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:27.777 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:27.796 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.796 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:27.804 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.804 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:27.804 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.804 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:27.805 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.805 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:27.838 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.838 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:27.838 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.838 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:27.934 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:27.935 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:27.971 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.971 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:27.971 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.971 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.971 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.971 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:27.971 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:27.971 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:27.992 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.993 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:27.998 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:27.998 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:28.109 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:28.109 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:28.146 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.146 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:28.146 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.146 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.147 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.147 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:28.147 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:28.147 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:28.171 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.171 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:28.175 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.175 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:28.439 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:28.440 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:28.488 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.488 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.488 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.488 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.488 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:28.489 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:28.488 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:28.489 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:28.536 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.536 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:28.538 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.539 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:28.614 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:28.614 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:28.638 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.638 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:28.638 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.638 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.639 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:28.639 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:28.639 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.639 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:28.661 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.662 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:28.666 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.667 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:28.880 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:28.880 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:28.911 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.911 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:28.911 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.911 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:28.911 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.912 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:28.912 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.912 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:28.932 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.932 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:28.939 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:28.939 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:02:29.119 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:02:29.119 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:02:29.167 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:29.168 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:02:29.170 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:29.170 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:02:29.172 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:29.173 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:02:29.178 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:29.178 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:02:29.193 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:29.195 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:02:29.213 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:02:29.214 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:03:30.949 [main] INFO  com.proxy.recon.ReconApplication - Starting ReconApplication using Java 19.0.2 with PID 5717 (/Users/santhosh-18782/Downloads/rough/recon/build/classes/java/main started by santhosh-18782 in /Users/santhosh-18782/Downloads/rough/recon)
+2023-10-22 20:03:30.954 [main] INFO  com.proxy.recon.ReconApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-22 20:03:32.003 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2023-10-22 20:03:32.009 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:03:32.011 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-22 20:03:32.011 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-22 20:03:32.092 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-22 20:03:32.092 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1079 ms
+2023-10-22 20:03:32.240 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.345 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.429 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.513 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.597 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.681 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.765 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.848 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:32.933 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:33.017 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:33.103 [main] WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2023-10-22 20:03:33.277 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17092fff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2121d1f9, org.springframework.security.web.context.SecurityContextHolderFilter@6c6017b9, org.springframework.security.web.header.HeaderWriterFilter@2f521c4, org.springframework.security.web.authentication.logout.LogoutFilter@6f9c5048, com.proxy.recon.filter.AuthFilter@31e2232f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2ab26378, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5399f6c5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1806bc4c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7bac686b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@506a1372, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b7332a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@462e1e64, org.springframework.security.web.access.ExceptionTranslationFilter@2d5ef498, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c1cfa53]
+2023-10-22 20:03:33.500 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2023-10-22 20:03:33.516 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+2023-10-22 20:03:33.527 [main] INFO  com.proxy.recon.ReconApplication - Started ReconApplication in 2.979 seconds (process running for 3.576)
+2023-10-22 20:03:33.958 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-22 20:03:33.958 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-22 20:03:33.961 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-10-22 20:03:38.865 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:38.865 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /
+2023-10-22 20:03:38.874 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - HTTP Request Failed with Response Code: 404
+2023-10-22 20:03:44.645 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:44.645 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /
+2023-10-22 20:03:44.649 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - HTTP Request Failed with Response Code: 404
+2023-10-22 20:03:47.063 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.064 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat
+2023-10-22 20:03:47.122 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.123 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:03:47.134 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.135 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:03:47.136 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.136 [http-nio-9091-exec-9] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:03:47.136 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.136 [http-nio-9091-exec-8] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:03:47.158 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.158 [http-nio-9091-exec-1] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
+2023-10-22 20:03:47.177 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:47.177 [http-nio-9091-exec-2] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/favicon.ico
+2023-10-22 20:03:55.391 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - method : POST
+2023-10-22 20:03:55.392 [http-nio-9091-exec-3] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/login
+2023-10-22 20:03:55.442 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:55.442 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:55.443 [http-nio-9091-exec-6] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/font-awesome.min.css
+2023-10-22 20:03:55.443 [http-nio-9091-exec-7] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/animate.css
+2023-10-22 20:03:55.442 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:55.443 [http-nio-9091-exec-4] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/main.css
+2023-10-22 20:03:55.444 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:55.444 [http-nio-9091-exec-5] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/plugins/bootstrap/css/bootstrap.min.css
+2023-10-22 20:03:55.477 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - method : GET
+2023-10-22 20:03:55.478 [http-nio-9091-exec-10] INFO  c.proxy.recon.service.ProxyService - path : /WebGoat/css/img/logoBG.jpg
